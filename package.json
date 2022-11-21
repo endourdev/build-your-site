@@ -1,6 +1,6 @@
 {
-  "name": "build-site",
-  "version": "0.0.2",
+  "name": "building-site",
+  "version": "0.0.3",
   "description": "An app will help you to create your website",
   "main": "main.js",
   "scripts": {
