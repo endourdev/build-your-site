@@ -1,0 +1,27 @@
+{
+  "name": "build-your-site",
+  "version": "0.0.1",
+  "description": "An app for help you to buil your website !",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fofhgit/build-your-site.git"
+  },
+  "keywords": [
+    "App",
+    "Site"
+  ],
+  "author": "Fofh_",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fofhgit/build-your-site/issues"
+  },
+  "homepage": "https://github.com/fofhgit/build-your-site#readme",
+  "devDependencies": {
+    "electron": "^21.3.0"
+  }
+}

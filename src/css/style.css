@@ -1,0 +1,116 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Poppins:wght@600&display=swap');
+
+* {
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+    background-color: #222226;
+}
+
+p {
+    color: white;
+}
+
+h4#p {
+    padding: 10px;
+}
+
+/* Typewriter */
+
+h1#dev {
+    color: white;
+    text-align: center;
+}
+
+h2#dev {
+    /* height: 500px; */
+    text-align: center;
+    border-right: 0.15em solid #222226;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s infinite;
+}
+
+@keyframes blink {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #222226;
+    }
+}
+
+/* Typewriter/span */
+span.js {
+    color: #f7df1e;
+}
+
+span.html {
+    color: #f16529;
+}
+
+span.css {
+    color: #264de4;
+}
+
+/* NavBar */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+nav img {
+    border-radius: 60px;
+}
+
+nav ul li {
+    text-align: right;
+    padding: 10px 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #57F287;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #5865F2;
+    margin-top: 20px;
+    text-decoration: overline;
+}
+
+/* Copyright */
+
+div#copy {
+    color: #57F287;
+    height: 36px;
+    position: relative;
+}
+
+div#copy {
+    position: absolute;
+    bottom: 0;
+}
+
+div#copy:hover {
+    color: #5865F2;
+    height: 36px;
+    position: relative;
+}
+
+div#copy:hover {
+    position: absolute;
+    bottom: 0;
+}
