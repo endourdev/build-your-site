@@ -17,7 +17,7 @@
       "perMachine": false,
       "allowToChangeInstallationDirectory": true,
       "installerIcon": "install.ico",
-      "uninstallerIcon": "uninstall.ico",
+      "uninstallerIcon": "install.ico",
       "deleteAppDataOnUninstall": true
     }
   },
