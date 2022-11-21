@@ -1,11 +1,25 @@
 {
   "name": "build-your-site",
   "version": "0.0.1",
-  "description": "An app for help you to buil your website !",
+  "description": "An app will help you to create your website",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "electron-builder"
+  },
+  "build": {
+    "icon": "icon.ico",
+    "appId": "io.github.fofh",
+    "productName": "BuildingSite",
+    "nsis": {
+      "artifactName": "BuilYourOwnSiteSetup ${version}.${ext}",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "install.ico",
+      "uninstallerIcon": "uninstall.ico",
+      "deleteAppDataOnUninstall": true
+    }
   },
   "repository": {
     "type": "git",
@@ -22,6 +36,7 @@
   },
   "homepage": "https://github.com/fofhgit/build-your-site#readme",
   "devDependencies": {
-    "electron": "^21.3.0"
+    "electron": "^21.3.0",
+    "electron-builder": "^23.6.0"
   }
 }
