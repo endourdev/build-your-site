@@ -10,7 +10,7 @@
   "build": {
     "icon": "icon.ico",
     "appId": "io.github.fofh",
-    "productName": "BuildingSite",
+    "productName": "Building Site",
     "nsis": {
       "artifactName": "BuilYourOwnSiteSetup ${version}.${ext}",
       "oneClick": false,
