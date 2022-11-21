@@ -12,7 +12,7 @@
     "appId": "io.github.fofh",
     "productName": "Building Site",
     "nsis": {
-      "artifactName": "BuilYourOwnSiteSetup ${version}.${ext}",
+      "artifactName": "BuilingSiteSetup ${version}.${ext}",
       "oneClick": false,
       "perMachine": false,
       "allowToChangeInstallationDirectory": true,
